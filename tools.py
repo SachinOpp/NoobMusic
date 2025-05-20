@@ -1136,7 +1136,7 @@ AudioQuality.STUDIO,
                 InlineKeyboardButton(text="▢", callback_data="end"),
             ],
         [                                                                                           InlineKeyboardButton(
-                text=f"{smallcap('Add to group')}", url=f"https://t.me/{clients["bot"].me.username}?startgroup=true"
+                text=f"{smallcap('Add to group')}", url=f"https://t.me/{clients['bot'].me.username}?startgroup=true"
             ),InlineKeyboardButton(
                 text="✖ Close",callback_data="close"
             )
