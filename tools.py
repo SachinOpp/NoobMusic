@@ -403,7 +403,7 @@ async def add_active_chat(chat_id):
 async def remove_active_chat(chat_id):
     if chat_id in active:
         active.remove(chat_id)
-    chat_dir = f"{ggg}/user_{clients["bot"].me.id}/{chat_id}"
+    chat_dir = f"{ggg}/user_{clients['bot'].me.id}/{chat_id}"
     os.makedirs(chat_dir, exist_ok=True)
     clear_directory(chat_dir)
 
